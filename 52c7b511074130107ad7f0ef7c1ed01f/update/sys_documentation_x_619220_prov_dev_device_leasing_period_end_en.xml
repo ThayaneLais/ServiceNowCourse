@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="number" label="Number" language="en" table="x_619220_prov_dev_device_leasing">
+    <sys_documentation element="period_end" label="Period End" language="en" table="x_619220_prov_dev_device_leasing">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>period_end</element>
             <help/>
             <hint/>
-            <label>Number</label>
+            <label>Period End</label>
             <language>en</language>
             <name>x_619220_prov_dev_device_leasing</name>
-            <plural>Numbers</plural>
+            <plural>Period Ends</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-06-28 22:42:24</sys_created_on>
-            <sys_id>8d8a71d1074130107ad7f0ef7c1ed062</sys_id>
+            <sys_created_on>2021-06-28 23:06:08</sys_created_on>
+            <sys_id>78ff39d5074130107ad7f0ef7c1ed0ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Number</sys_name>
+            <sys_name>Period End</sys_name>
             <sys_package display_value="ProV Device Leasing" source="x_619220_prov_dev">52c7b511074130107ad7f0ef7c1ed01f</sys_package>
             <sys_policy/>
             <sys_scope display_value="ProV Device Leasing">52c7b511074130107ad7f0ef7c1ed01f</sys_scope>
-            <sys_update_name>sys_documentation_x_619220_prov_dev_device_leasing_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_619220_prov_dev_device_leasing_period_end_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-06-28 22:42:24</sys_updated_on>
+            <sys_updated_on>2021-06-28 23:06:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
