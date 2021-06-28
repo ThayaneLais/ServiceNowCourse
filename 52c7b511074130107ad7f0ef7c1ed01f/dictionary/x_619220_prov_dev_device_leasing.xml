@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Device Leasing" max_length="40" name="x_619220_prov_dev_device_leasing" type="collection">
+        <element attributes="encode_utf8=false" label="branch Office Administrator" max_length="32" name="branch_office_administrator" reference="sys_user_has_role" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Device" max_length="32" name="device" reference="cmdb_ci" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Type" max_length="40" name="device_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number 2" max_length="40" name="number_2" type="string"/>
+        <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Delivered" value="delyve"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+                <element inactive_on_update="false" label="Received" value="received"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+        <index name="index2">
+            <element name="branch_office_administrator"/>
+        </index>
+        <index name="index3">
+            <element name="device"/>
+        </index>
+    </element>
+</database>
